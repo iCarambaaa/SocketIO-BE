@@ -22,6 +22,7 @@ const io = new Server(httpServer, { /* options */ });
 // We are defining all of our event handlers
 io.on("connection", (socket) => {
     console.log(socket.id)
+   // console.log(3**3)
 
     // We are setting the username for the user
     // This doubles as a "login" event since we dont have an auth system
